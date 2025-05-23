@@ -22,6 +22,7 @@ This is my custom Neovim configuration powered by `packer.nvim`. The setup inclu
 3. Open Neovim and run the following command to install the plugins:
 
    ```vim
+    :source ~/.config/nvim/lua/yeabsra/packer.lua
     :PackerSync
 
 ## Customization
@@ -67,7 +68,7 @@ This Neovim setup includes a curated set of plugins managed by [packer.nvim](htt
 MIT License. See LICENSE for details.
 
 ## Credits
-- Packer.nvim
-- Neovim
+- [packer.nvim](https://github.com/wbthomason/packer.nvim)
+- [Neovim](https://github.com/neovim/neovim)
 
 ## Feel free to fork, clone, and contribute to this configuration!

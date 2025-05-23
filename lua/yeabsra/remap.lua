@@ -33,3 +33,4 @@ vim.keymap.set("n", "<leader>p", '"ap', opts)
 
 vim.keymap.set("n", "<leader>tn", ':tabnew<CR>', opts)
 vim.keymap.set("n", "<leader>tc", ':tabclose<CR>', opts)
+vim.keymap.set("t", "<C-[>", '<C-\\><C-n>', opts)
